@@ -1,9 +1,18 @@
 *{
-    width: 100%;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#insidebox1, #insidebox2{
+    border-top: 1px solid #09f097;
+    border-bottom: 1px solid #09f097; 
+    padding-top: 5px ;
+    padding-bottom: 5px ;   
+}
+
 body{
+    width: 100%;
+    margin: 0;
     background-image: url(bg2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -11,10 +20,17 @@ body{
 }
 
 header{
-    margin: 30px 0 30px 0;
+    background-color: black;
+    color: #09f097;
+    margin: 0px 0 30px 0;
+    padding-top: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 10px;
-    border-bottom: 2px solid black;
+}
+
+h3{
+    font-size: larger;
+    text-decoration: underline;
 }
 
 .content{
@@ -33,16 +49,7 @@ font-size: 15px;
     font-size: 15px;
 }
 
-footer{
-    border-bottom: 2px solid rgb(0, 0, 0);
-    border-top: 2px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    margin-top:80px;
-    margin-bottom: 20px;
-    position: sticky;
-}
+
 
 .inputs{
     margin: 30px 30px 0 30px;
@@ -50,7 +57,7 @@ footer{
 
 #bNum, #pNum, #Div{
     width:100px;
-    margin: 0 30px 0 0px;
+    margin: 0 25px 0 0px;
 }
 
 #Div{
@@ -98,4 +105,16 @@ form{
     background-color: white;
     margin-left: 140px;
 
+}
+
+#footer{
+    background-color: black;
+    color: #09f097;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
