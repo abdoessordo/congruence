@@ -2,10 +2,7 @@ function RaiseToPower(form) {
     var a = form.a.value;
     var b = form.b.value;   
     var n = form.n.value;
-    console.log(a,b,n);
-    
     var result = (a**b)%n
-
 
     if(isNaN(a) == false && isNaN(b) == false && isNaN(n) == false && isNaN(result) == false){
         if (a**b > 10**308){
