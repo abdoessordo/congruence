@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Congruence</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="congruence.js"></script>
+    </head>
+    <body>
+
+        <center>
+            <header>
+                <h1>Linear Congruence Solver </h1>
+            </header>
+        </center>
+
+        <div class="content">
+            <h3>HOW TO USE ?</h3>
+            <br>
+            <p>This is an explication on how to use this calculator. 
+                All numbers must be writting like this <b style="text-transform: uppercase;"><i>a<sup>b</sup></i> ≡ <i>c</i> [<i>n</i> ]</b>.<br>
+                Please follow these steps:<br><br>
+            </p>
+            <ul>
+                <li>First insert the base number <i>a</i>.</li>
+                <li>First insert the power number <i>b</i>.</li>
+                <li>First insert the divisor <i>n</i>.</li>
+            </ul>
+            <br>
+            <span class="!" style="font-size: 24px; color: red;">❗  </span><span class="nb"><u><b>  NB:</b></u> A, B AND N MUST BE ENTEGERS.<br></span>
+
+            <div class="form">
+                <form name="formulaire">
+                    <div class="inputs">
+                        Base number:
+                        <input type="text" name="a" placeholder="A" id="bNum" required>
+                        Power number:
+                        <input type="text" name="b" placeholder="B" id="pNum"required>
+                        Divisor:
+                        <input type="text" name="n" placeholder="N" id="Div" required>
+                    </div>
+                    <input class="submitbtn" type="button" name="calculatebtn" value="Calculate" onclick="RaiseToPower(this.form);">
+                    <div class="textarea">
+                        <p id="demo"></p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <footer>
+            <h5>Made by: Essordo Abdellah</h5>
+        </footer>
+    </body>
+</html>

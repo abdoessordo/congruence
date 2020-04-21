@@ -1,0 +1,84 @@
+*{
+    width: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    margin: 30px 0 30px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+padding-right: 100px;
+padding-left: 100px;
+}
+
+.nb{
+    font-weight: bolder;
+    color: red;
+    font-size: 18px;
+}
+
+footer{
+    /* border: 1px solid black; */
+    margin-top:50px;
+}
+
+.inputs{
+    margin: 30px 30px 0 30px;
+}
+
+#bNum, #pNum, #Div{
+    width:100px;
+    margin: 0 30px 0 0px;
+}
+
+#Div{
+    width: 100px;
+}
+
+    
+form{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+    height: 400px;
+    width: 740px;
+    border: 1px solid black;
+    position: relative;
+}
+.submitbtn{
+    width: 100px;
+    border-radius: 5px;
+    margin:30px 320px 30px 320px;
+    background-color: wheat;
+}
+
+.calculator{
+    border: 1px solid black;
+    background-color: white;
+}
+
+.calulatorHolder{
+    margin-top: 30px;
+    width: 640px;
+    padding-left: 100px;
+}
+
+.textarea{
+    border: 1px solid black;
+    width: 80%;
+    height: 100px;
+    background-color: white;
+    margin-left: 140px;
+
+}
