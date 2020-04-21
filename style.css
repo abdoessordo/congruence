@@ -27,8 +27,13 @@ padding-left: 100px;
 }
 
 footer{
-    /* border: 1px solid black; */
-    margin-top:50px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-top:80px;
+    margin-bottom: 20px;
 }
 
 .inputs{
@@ -51,10 +56,11 @@ form{
     margin-left: auto;
     margin-right: auto;
     padding-right: 30px;
-    height: 400px;
+    height: 300px;
     width: 740px;
-    border: 1px solid black;
+    border: 2px solid black;
     position: relative;
+    background-image: url(bg1.jpg);
 }
 .submitbtn{
     width: 100px;
