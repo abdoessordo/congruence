@@ -85,6 +85,7 @@ form{
     border-radius: 5px;
     margin:30px 320px 20px 320px;
     background-color: wheat;
+    cursor: pointer;
 }
 
 .calculator{
